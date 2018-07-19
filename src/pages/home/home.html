@@ -1,0 +1,32 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      Home
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <button ion-button  round outline block (click)="Post()">Post</button>
+
+  
+  <ion-row class= "header">
+      <ion-col col-6>
+        Country
+      </ion-col>
+      <ion-col col-6>
+        Capital
+      </ion-col>
+  </ion-row>
+  <ion-item *ngFor="let item of items" >
+  <ion-row>
+    <ion-col col-6>
+      {{item.country}}
+    </ion-col>
+    <ion-col col-6>
+  {{item.capital}}
+    </ion-col>
+ 
+</ion-row>
+ </ion-item>
+</ion-content>
