@@ -1,0 +1,2 @@
+# How-to-write-read-and-display-data-from-MySQL-database-in-ionic-app
+at how to write, read and display data from MySQL database in ionic application, we will create an app to display names and capitals of African countries, we will key in few countries into the database for initial display and post the rest through our post page. for more information see https://ionicdon.com/how-to-write-read-and-display-data-from-mysql-database-in-ionic-app/
